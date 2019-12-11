@@ -44,7 +44,7 @@ tags:
 
 
 ### 具体步骤
-<div align="center"">
+<div align="center">
 ![Structure of PixelLink+VGG16 2s](../img/PixelLink-Structure of PixelLink+VGG16 2s.png)
 </div>
 
