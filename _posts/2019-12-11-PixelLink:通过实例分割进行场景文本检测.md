@@ -31,9 +31,9 @@ tags:
 
 ## 论文详解
 ### Architecture of PixelLink
-<p align="center">
+
 ![Architecture of PixelLink](https://kuangbo.github.io/img/PixelLink-Architecture-of-PixelLink.png)
-</p>
+
 > 图片经由CNN模型训练之后，得到两类pixel-wise预测：文本/非文本预测和link预测。再经过threshold，pos pixels与pos link结合在一起，实现了实例分割。在这个过程中，minAreaRect被用来从分割结果中提取bounding box。通过后处理噪音预测也是很有效的。正如上图所示，每个图片都有八个热点图，分别代表八个方向的link预测。一些很难在文本/非文本预测中分离出来的words，可以在link预测中分离。
 
 本篇论文给出两种网络结构：**PixelLink+VGG16 2s**，**PixelLink+VGG16 4s**。
@@ -44,9 +44,9 @@ tags:
 
 
 ### 具体步骤
-<p align="center">
+
 ![Structure of PixelLink+VGG16 2s](https://kuangbo.github.io/img/PixelLink-Structure-of-PixelLink+VGG16-2s.png)
-</p>
+
 
 - 主干网络是沿用了SSD网络结构，用VGG16作为base net，并将VGG16的最后两个全连接层改成卷积层；
 - 提取不同层的feature map，对于PixelLink+VGG16 2s网络结构：提取了conv2_2，conv3_3，conv4_3，conv5_3，fc_7；
