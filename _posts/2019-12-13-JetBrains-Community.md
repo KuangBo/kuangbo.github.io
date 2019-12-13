@@ -1,14 +1,14 @@
 ---
 layout:     post
 title:      JetBrains Community
-subtitle:   PixelLink:通过实例分割进行场景文本检测
+subtitle:   Kotlin and IntelliJ IDEA Community 
 date:       2019-12-13
 author:     kuangbo
 header-img: img/KotlinConfKeynote2019.png
 catalog: true
 tags:
-    - 深度学习
-    - 文本检测
+    - JetBrains
+    - 开源
 ---
 
 
@@ -21,9 +21,8 @@ Jetbrains为Java，Kotlin，Ruby，Python，PHP，C，Objective-C，C ++，C＃�
 
 ###  Products
 #### IDEs
-<div align="center">
+
 ![JetBrains](https://kuangbo.github.io/img/JetBrains.png)
-</div>
 
 - AppCode - Swift 和 Objective-C IDE开发工具。
 - [CLion](https://www.jetbrains.com/clion/) - 跨平台的C/C++ IDE 开发工具，支持C++11 、C++14、libc++以及Boost。
@@ -47,24 +46,21 @@ Jetbrains为Java，Kotlin，Ruby，Python，PHP，C，Objective-C，C ++，C＃�
 [JetBrains开源项目](https://www.diycode.cc/developers/JetBrains)多达20个，其中包括[Kotlin](https://github.com/JetBrains/kotlin)、[intellij-community](https://github.com/JetBrains/intellij-community)、Kotlin-native等。下面着重介绍一下来自JetBrains的Kotlin与IntelliJ IDEA Community。
 
 #### Kotlin
-<div align="center">
+
 ![KC19_Global_badge_Blogpost](https://kuangbo.github.io/img/KC19_Global_badge_Blogpost.png)
-</div>
 
 [Kotlin](https://www.jetbrains.com/idea/)是一种在Java虚拟机上运行的静态类型编程语言，它也可以被编译成为JavaScript源代码。它主要是由俄罗斯圣彼得堡的JetBrains开发团队所发展出来的编程语言，其名称来自于圣彼得堡附近的科特林岛。
 Kotlin被设计为一种工业级的面向对象的语言，并且是比Java更好的语言，但仍可与Java代码完全互操作，从而使公司可以逐步从Java迁移到Kotlin。<br>
 2019年5月7日，谷歌宣布Kotlin是Android应用程序开发的[首选语言](https://techcrunch.com/2019/05/07/kotlin-is-now-googles-preferred-language-for-android-app-development/)。
-<div align="center">
+
 ![KotlinConfKeynote2019](https://kuangbo.github.io/img/KotlinConfKeynote2019.png)
-</div>
 
 "Our vision is for Kotlin to be a reliable companion for all your endeavors, a default language choice for your tasks. To accomplish this, we’re going to make it shine on all platforms. Multiple case studies from companies well-known in the industry show that we are making good progress in this direction."<br>
 "Kotlin 1.4 that is going to arrive in spring 2020 will make another step forward for the Kotlin ecosystem."
 
 #### IntelliJ IDEA Community
-<div align="center">
+
 ![IDEA](https://kuangbo.github.io/img/idea_overview_5_1.png)
-</div>
 
 最初版于2001年1月时推出，当时是少数使用前阶代码浏览及代码重构的Java集成开发环境之一。<br>
 在2010年的Infoworld报告中，比较当时市面上的主流Java集成开发环境，包括：Eclipse、IntelliJ、NetBeans、JDeveloper，IntelliJ获得该媒体实测中的最高评比。<br>
