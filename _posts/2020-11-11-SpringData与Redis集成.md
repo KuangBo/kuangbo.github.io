@@ -4,7 +4,7 @@ title:      Redis
 subtitle:   SpringData与Redis的集成
 date:       2020-11-11
 author:     kuangbo
-header-img: _posts/img/post-bg-redis.jpg
+header-img: img/post-bg-redis.jpg
 catalog: true
 tags:
     - Redis
@@ -113,14 +113,14 @@ redis自动分配主从关系：`redis-cli --cluster create 202.120.87.165:6379 
 Redis本身支持的数据类型：基本数据、Hash数据，在整个Redis里面只有这两类数据支持普通的数据转换功能。
 
 - 基本数据：JSON结构数据
-- HashSet数据：Hash数据本身就可以描述出各个属性的内容![SpringData-Redis-1](./img/SpringData-Redis-1.png)
+- HashSet数据：Hash数据本身就可以描述出各个属性的内容![SpringData-Redis-1](https://kuangbo.github.io/img/SpringData-Redis-1.png)
 
 绝大多数将选择第一种方式：
 
 - 操作比较直观；
 - 只进行一次数据的保存。
 
-如果真的使用基本数据类型进行对象的保存，实际上有两种方案：对象序列化（速度快）、JSON处理（速度慢）。利用SpringData技术可以轻松的实现转换。SpringData的转换原则如下：![SpringData-Redis-2](./img/SpringData-Redis-2.png)
+如果真的使用基本数据类型进行对象的保存，实际上有两种方案：对象序列化（速度快）、JSON处理（速度慢）。利用SpringData技术可以轻松的实现转换。SpringData的转换原则如下：![SpringData-Redis-2](https://kuangbo.github.io/img/SpringData-Redis-2.png)
 
 SpringData版本
 
