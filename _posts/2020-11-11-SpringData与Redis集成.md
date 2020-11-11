@@ -4,7 +4,7 @@ title:      Redis
 subtitle:   SpringData与Redis的集成
 date:       2020-11-11
 author:     kuangbo
-header-img: img/post-bg-redis.jpg
+header-img: img/post-bg-cook.jpg
 catalog: true
 tags:
     - Redis
